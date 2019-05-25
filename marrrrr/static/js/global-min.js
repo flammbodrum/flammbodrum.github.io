@@ -1,1 +1,0 @@
-$(document).ready(function(){$(function(){$('[data-toggle="tooltip"]').tooltip()})}),$(window).load(function(){var n=$(window).width();n<767&&$(".panel-collapse").addClass("in"),$(window).resize(function(){n<767&&$(".panel-collapse").addClass("in")})});
