@@ -1,2 +1,2 @@
 # flammbodrum.com
-flammbodrum.com
+Wordpress Rip
