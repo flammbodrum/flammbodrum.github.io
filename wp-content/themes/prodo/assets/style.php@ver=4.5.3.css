@@ -710,10 +710,15 @@ body.admin-bar .page-loader {
 	background: none;
 	color: #0069b4 !important;
 }
+.navbar .navbar-nav > li .covid:hover, .navbar .navbar-nav > li .covid:focus {
+	background: none;
+	color: #f93f26 !important;
+}
 
 .navbar .navbar-nav > li.menu-item-object-page.current-menu-item > a {
 	color: #0069b4 !important;
 }
+
 
 .navbar .navbar-nav > li > a {
 	font-family: "Roboto", sans-serif;

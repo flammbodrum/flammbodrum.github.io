@@ -49,6 +49,7 @@
     <link rel='stylesheet' id='isotope-css' href='wp-content/themes/prodo/assets/css/plugins/isotope.min.css@ver=4.5.3.css' type='text/css' media='all' />
     <link rel='stylesheet' id='style-css' href='wp-content/themes/prodo/assets/style.php@ver=4.5.3.css' type='text/css' media='all' />
     <style id='style-inline-css' type='text/css'>
+        
         .intro {margin-bottom: -25px;}
         .spacer { height: 25px;}
 
@@ -104,8 +105,26 @@
             color: #ccc;
         }
 
-        #fiyat-rates .parallax-container h2 {
+        #covid-19 .parallax-container h2 {
             color: #ccc;
+        }
+
+        #covid-19 .parallax-container h2 span {
+            color: #999;
+        }
+
+
+        #covid-corona {
+            /* background-color: #f93f26;
+            color: #fff; */
+            font-size: 16px;
+            
+        }
+        #covid-corona ul {
+            margin-right: 5rem;
+        }
+        #covid-corona ul li {
+            hyphens: none !important;
         }
 
         #fiyat-rates .parallax-container h2 span {
@@ -228,9 +247,17 @@
         #res_r_box input {
             padding: 10px !important;
         }
+        
     </style>
     <link rel='stylesheet' id='wp-style-css' href='wp-content/themes/prodo/style.css@ver=4.5.3.css' type='text/css' media='all' />
     <link rel='stylesheet' id='responsive-css' href='wp-content/themes/prodo/assets/css/responsive.min.css@ver=4.5.3.css' type='text/css' media='all' />
+    <style type="text/css">
+        .recentcomments a {
+            display: inline !important;
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+    </style>
     <script type='text/javascript' src='wp-includes/js/jquery/jquery.js@ver=1.12.4'></script>
     <script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min.js@ver=1.4.1'></script>
     <script type='text/javascript' src='wp-content/themes/prodo/assets/js/modernizr.min.js@ver=4.5.3'></script>
@@ -242,13 +269,7 @@
     <link rel='shortlink' href='http://flammbodrum.com' />
     <link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed@url=http%253A%252F%252Fflammbodrum.com%252F" />
     <link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed@url=http%253A%252F%252Fflammbodrum.com%252F&amp;format=xml" />
-    <style type="text/css">
-        .recentcomments a {
-            display: inline !important;
-            padding: 0 !important;
-            margin: 0 !important;
-        }
-    </style>
+
 
 
     <!-- Facebook Pixel Code -->
@@ -304,9 +325,10 @@
                         title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a><a href="//foursquare.com/v/flamm/4fe3167de4b0fcbc92f03884" title="Foursquare" target="_blank"><i class="fa fa-foursquare"></i></a> </div>
                 <ul id="menu-turkce" class="nav navbar-nav navbar-right">
                     <li id="menu-item-3893" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3893"><a href="#otel-hotel">OTEL<br><span class="menualt">HOTEL</span></a></li>
-                    <li id="menu-item-3915" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3915"><a href="#plaj-beach">PLAJ &#038; RESTORAN<br><span class="menualt">BEACH &#038; RESTAURANT</span></a></li>
+                    <li id="menu-item-covid" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-covid"><a href="#covid-19" class="covid">COVID 19<br><span class="menualt">ÖNLEMLERİ</span></a></li>
+                    <li id="menu-item-3915" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3915"><a href="#plaj-beach">PLAJ & RESTORAN<br><span class="menualt">BEACH & RESTAURANT</span></a></li>
                     <li id="menu-item-4236" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4236"><a href="#galeri-gallery">GALERİ<br><span class="menualt">GALLERY</span></a></li>
-                    <li id="menu-item-3942" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3942"><a href="#fiyat-rates">FİYAT &#038; REZERVASYON<br><span class="menualt">RATES &#038; RESERVATION</span></a></li>
+                    <li id="menu-item-3942" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3942"><a href="#fiyat-rates">FİYAT & REZERVASYON<br><span class="menualt">RATES & RESERVATION</span></a></li>
                     <li id="menu-item-3951" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3951"><a href="/events/">ETKİNLİKLER<br><span class="menualt">EVENTS</span></a></li>
                     <li id="menu-item-3949" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3949"><a href="#contact">İLETİŞİM<br><span class="menualt">CONTACT</span></a></li>
                     <li id="menu-item-4353" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4353"><a href="//wbe.hotelier101.com/book/flammbodrum">
@@ -761,7 +783,7 @@
     <section id="plaj-beach" class="section parallax" style="background: #003da5;">
         <div class="parallax-container">
             <div class="container offsetTopX offsetBottomX">
-                <h2>PLAJ &amp; RESTORAN &nbsp;&nbsp;<span class="eng"> BEACH &#038; RESTAURANT</span></h2>
+                <h2>PLAJ &amp; RESTORAN &nbsp;&nbsp;<span class="eng"> BEACH & RESTAURANT</span></h2>
             </div>
         </div>
     </section>
@@ -1049,8 +1071,7 @@
     </section>
 
 
-    <div id="galeri-gallery" class="spacer"></div>
-    
+    <div id="galeri-gallery" class="spacer"></div>    
     <section id="galeri-gallery" class="section parallax" style="background: #f93f26;">
         <div class="parallax-container">
             <div class="container offsetTopX offsetBottomX">
@@ -1379,7 +1400,7 @@
     <section id="fiyat-rates" class="section parallax" style="background: #003da5;">
         <div class="parallax-container">
             <div class="container offsetTopX offsetBottomX">
-                <h2>FİYAT &#038; REZERVASYON &nbsp;&nbsp;<span class="eng">RATES &#038; RESERVATION</span></h2>
+                <h2>FİYAT & REZERVASYON &nbsp;&nbsp;<span class="eng">RATES & RESERVATION</span></h2>
             </div>
         </div>
     </section>
@@ -1486,6 +1507,36 @@
         </div>
     </section>
 
+    <div id="covid-19" class="spacer"></div>
+    <section id="covid-19" class="section parallax" style="background: #003da5;">
+        <div class="parallax-container">
+            <div class="container offsetTopX offsetBottomX">
+                <h2>COVID 19 &nbsp;&nbsp;<span class="eng">ÖNLEMLERİ</span></h2>
+            </div>
+        </div>
+    </section>
+    <section id="covid-corona" class="section offsetTop offsetBottom">
+        <div class="container">
+            <ul>
+                <li>Misafirler minimum temasla check-in yapabiliyorlar.</li>
+                <li>Misafirlerin bavulları dezenfekte edilerek odalarına ulaştırılıyor.</li>
+                <li>Tüm odalar detaylı temizlik yapıldıktan sonra ULV spreyleme aletleriyle dezenfekte ediliyor ve uzun süre havalandırılıyor. Odalar temizlendikten sonra bantla mühürleniyor.</li>
+                <li>Klima filtreleri her check-in öncesi dezenfekte ediliyor.</li>
+                <li>Odalarda kullanılan çarşaf ve havlular 60 derecede yıkandıktan sonra 48 saat bekletilip kullanılıyor.</li>
+                <li>Havlular ve pike odalarda ambalaj içerisinde bulunduruluyor. Misafirler dilerse tek kullanımlık havlu ve çarşaflar veriliyor.</li>
+                <li>Tüm odalarda misafirler için el dezenfektanı bulunduruluyor.</li>
+                <li>Tüm tesis genelinde dezenfektanlar bulunduruluyor.</li>
+                <li>Plajdaki yataklar arası ve minimum 1.5 metre olarak konumlandırılıyor. Yataklar her kullanım sonrası ULV cihazlarıyla dezenfekte ediliyor. Yataklara her misafirin kullanımından önce 60 derecede yıkanmış sıfır kılıflar seriliyor ve kapalı ambalajında havlular veriliyor. Ayrıca tek kullanımlık havlular da bulunduruluyor.</li>
+                <li>Restaurant bölümünde masalar arası mesafe minimum 1.5m olarak konumlandırıldı. Tüm masa ve sandalyeler misafirlerin kullanımından sonra dezenfektan ile temizleniyor ve masalara bilgi kartı bırakılıyor. </li>
+                <li>Masalarda bulunan QR kod ile menüler incelenebiliyor.</li>
+                <li>Tüm çatal bıçaklar dezenfekte edilerek paketlenmiş olarak veriliyor. Yemekler mutfaktan kapak ile masaya getiriliyor ve bu şekilde servis ediliyor.</li>
+                <li>Tüm personelin düzenli olarak sağlık kontrolü yapılıyor. Ayrıca tüm personel hijyen eğitiminden geçirildi ve sertifikalandı.</li>
+                <li>Buna ek olarak tüm otel iş sağlığı güvenliği firması tarafından rutin olarak denetleniyor.</li>
+            </ul>
+        </div>
+    </section>
+
+
 
     <div id="contact" class="spacer"></div>
     <section id="contact" class="section parallax" style="background: #f93f26;">
@@ -1499,11 +1550,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-<!-- 16:9 aspect ratio -->
-<div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3181.418851585118!2d27.389330315298835!3d37.11894897988422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14be6fba2f17b52d%3A0xd4676745446ce1c!2sFlamm+Bodrum!5e0!3m2!1sen!2str!4v1540385007852"
-width="100%" height="500" style="border:0" allowfullscreen></iframe>
-</div>
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3181.418851585118!2d27.389330315298835!3d37.11894897988422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14be6fba2f17b52d%3A0xd4676745446ce1c!2sFlamm+Bodrum!5e0!3m2!1sen!2str!4v1540385007852"
+                    width="100%" height="500" style="border:0" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
 
